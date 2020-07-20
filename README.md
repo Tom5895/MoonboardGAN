@@ -3,10 +3,12 @@ The MoonBoard is a standardised interactive rock climbing training wall that con
 
 <img src="moonboard.jpg" alt="a moonboard" width="300"/>
 
-The figure below shows an image of a moonboard problem. 
+The figure below shows an image of a moonboard problem. The climber must reach the final hold using only the circled holds for their hands and feet.
 
 <img src="moonboardproblem.png" alt="a moonboard problem" width="300"/>
 
 Throughout this project we build a classifier to predict the grade of a MoonBoard problem given only the specific holds used. We compare the performance of a Convolutional Neural Network against a Long Short-Term Memory Network which is able to capture additional information from the order in which the holds are used when climbing the problem. 
 
 We also experiement with a Variational Auto-Encoder to autonomously generate new moonboard problems
+
+The data was scraped from the MoonBoard website using Selenium WebDriver.
