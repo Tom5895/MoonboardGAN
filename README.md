@@ -1,1 +1,1 @@
-# MoonboardGAN
+# MoonboardML
